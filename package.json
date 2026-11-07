@@ -1,0 +1,17 @@
+{
+  "name": "time-range-partition-splitter",
+  "version": "0.1.0",
+  "description": "Break a date-time interval into contiguous parts at UTC day, month and year edges.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
